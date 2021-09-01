@@ -1,0 +1,19 @@
+.sudoku {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.sudoku-row {
+    display: flex;
+}
+
+.options {
+    margin: 50px;
+    text-align: left;
+}
+
+.options>button {
+    font-size: 26px;
+    padding: 2px 7px;
+}

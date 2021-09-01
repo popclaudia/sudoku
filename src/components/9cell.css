@@ -1,0 +1,12 @@
+.cell9 {
+    border: solid 1px black;
+    width: 96px;
+    height: 96px;
+    /* display: flex; */
+    margin-right: -1px;
+    margin-top: -1px;
+}
+
+.cell9-row {
+    margin: 0;
+}

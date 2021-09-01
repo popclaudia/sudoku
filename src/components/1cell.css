@@ -1,0 +1,10 @@
+.cell1 {
+    width: 33px;
+    height: 33px;
+    background-color: rgb(255, 247, 238);
+    margin-right: -1px;
+    margin-top: -1px;
+    border: solid 1px black;
+    font-weight: bold;
+    font-size: 22px;
+}

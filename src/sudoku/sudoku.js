@@ -76,9 +76,17 @@ class Sudoku extends React.Component {
             this.setState({
                 current: curr,
             })
-            this.state.clickedCell.style.color = 'darkred'
+            const styledCell = this.state.clickedCell;
+            styledCell.style.color = 'darkred'
+            this.setState({
+                clickedCell: styledCell
+            })
             if (this.state.current[this.state.selectedCell9][this.state.selectedCell1] == this.state.solution[this.state.selectedCell9][this.state.selectedCell1]) {
-                this.state.clickedCell.style.color = 'darkgreen'
+                const styledCellGood = this.state.clickedCell;
+                styledCellGood.style.color = 'darkgreen'
+                this.setState({
+                    clickedCell: styledCellGood
+                })
 
                 let count = 0;
                 for (let i = 0; i < 9; i++)
